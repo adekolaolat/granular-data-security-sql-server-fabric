@@ -1,8 +1,6 @@
 # Granting access to stakeholders
 
-The first step is to identify the fields that have PII that requires masking.
-
-These fields should be modified to mask their data.
+The first step is to identify the fields that have PII, so I can apply the dynamic masking for the column. These fields will  be altered to mask  according to the type of masking needed.
 
 | Fields |
 | ------------- |
@@ -11,6 +9,7 @@ These fields should be modified to mask their data.
 | HumanResources.Employee.NationalIDNumber|
 | Sales.CreditCard.CardNumber|
 
+ Run the queries below to :
 
 #### Mask email address
 ```
@@ -47,5 +46,6 @@ ADD MASKED WITH (FUNCTION = 'partial(0,"XXX-XXXX-",4)');
 ### Outcome
 
 
-**Masked Email whwn loged in as an analyst**
+**Masked Email when logged in as an analyst**
+
 ![alt text](/images/masked_email.png)
