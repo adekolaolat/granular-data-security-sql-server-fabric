@@ -2,7 +2,7 @@
 
 You must be at an admin level to have permission to run this.
 
-First, is to create access to the database for the stakeholders. 
+First thing is to create access to the database for the stakeholders. 
 
 ## Create access for stakeholders
 
@@ -79,7 +79,7 @@ GO
 EXEC sp_add_advworks_user 'stephen0@adventure-works.com','stephen123','role_sales_rep';
 GO
 
-EXEC sp_add_advworks_user 'manager@adventure-works.com','manager123','sales_manager';
+EXEC sp_add_advworks_user 'manager@adventure-works.com','manager123','role_sales_manager';
 GO
 
 ```
