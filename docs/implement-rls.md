@@ -59,7 +59,7 @@ Now, log in as one of the sales rep, you can only see that sales rep's record.
 
 ### Outcome
 
-This is the result you run the same query as *'stephen0@adventure-works.com'* after implementation of RLS. *'stephen0@adventure-works.com'* can only see his data:
+This is the result when you run the same query as *'stephen0@adventure-works.com'*, a sales rep after implementation of RLS. *'stephen0@adventure-works.com'* can only see his data:
 
 ![alt text](/images/rls_stephen.png)
 
