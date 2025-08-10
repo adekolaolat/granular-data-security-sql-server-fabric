@@ -110,6 +110,6 @@ If you log in as one of the sales rep, you will be able to access and see all da
 
 Now, I'll implement the row-level security for the **SalesQuotaFullDetails** table to prevent this.
 
-[Implement Row-Level Security]()
+[Implement Row-Level Security](https://github.com/adekolaolat/granular-data-security-sql-server-fabric/blob/main/docs/implement-rls.md)
 
 
