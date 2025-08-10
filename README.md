@@ -6,7 +6,7 @@
 
 ## Overview & Scenario
 
-This project implements data governance at a granular level by applying features such as Dynamic Data Masking (DDM), Column-Level Security, and Row-Level Security within a business setting. 
+This project implements data governance at a granular level by applying features such as Dynamic Data Masking (DDM), Column-Level Security (CLS), and Row-Level Security (RLS) within a business setting.
 
 This is demonstrated using SQL Server but also applies to SQL Endpoints and Data Warehouse on Fabric and Synapse
 
@@ -38,7 +38,6 @@ The management has asked that this adheres the organization's IG.
 - Adventure Works database set up on SQL server/ Fabric Data Warehouse, SQL Endpoints/ Synapse. Check [here](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/on-prem-db-setup.md) for set up SQL Server on local machine.
 - T-SQL  
 
-
 ## Data governance overview
 
 ## Implementation Steps
@@ -55,11 +54,10 @@ The management has asked that this adheres the organization's IG.
 
   - (Optional) [Data pipeline to land data from  on-premises into Fabric lakehouse.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
 
-  
-- Create access (logins) for stakeholders.
-- Dynamic data masking of PII.
-- Grant permissions to required tables for stakeholders: Object-level security and Column-level security
-- Implement row level security to table.
+- [Create access (logins) for stakeholders](https://github.com/adekolaolat/granular-data-security-sql-server-fabric/blob/main/docs/create-db-access.md)
+- [Dynamic data masking of PII](https://github.com/adekolaolat/granular-data-security-sql-server-fabric/blob/main/docs/mask-pii.md).
+- [Grant permissions to required tables for stakeholders: Object-level security and Column-level security](https://github.com/adekolaolat/granular-data-security-sql-server-fabric/blob/main/docs/grant-access.md)
+- [Implement row-level security to table](https://github.com/adekolaolat/granular-data-security-sql-server-fabric/blob/main/docs/implement-rls.md).
   
 ## Final Thoughts
 
