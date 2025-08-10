@@ -1,4 +1,4 @@
-# Granting access to stakeholders
+# Dynamic data masking for PII and Credit Card numbers.
 
 The first step is to identify the fields that have PII, so I can apply the dynamic masking for the column. These fields will  be altered to mask  according to the type of masking needed.
 
@@ -43,7 +43,12 @@ ALTER COLUMN CardNumber
 ADD MASKED WITH (FUNCTION = 'partial(0,"XXX-XXXX-",4)');
 ```
 
+ANy other user would require and unmask permission to see a particular field using:
+```
+GRANT UNMASK
+```
 ### Outcome
+
 
 
 **Masked Email when logged in as an analyst**
