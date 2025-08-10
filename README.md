@@ -68,7 +68,7 @@ The permissions have been implemented so that:
   
 Permission to acess any other data can always to any other data can be granted by the admin 
 
-![alt text](images/governance_image.png)
+<img src="images/governance_image.png" alt="Governance Image" width="400"/>
   
 ## Final Thoughts
 
