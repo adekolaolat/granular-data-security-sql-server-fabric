@@ -69,7 +69,16 @@ The permissions have been implemented so that:
 Permission to acess any other data can always to any other data can be granted by the admin 
 
 <img src="images/governance_image.png" alt="Governance Image" width="400"/>
-  
+
+
+<details><summary>Running this sqlcmd command will set it up </summary>
+
+  ```sqlcmd -S <ServerName> -d master -U <username> -P <password> -i "sql\setup_granular_access.sql"```
+
+  </details>
+
+
+
 ## Final Thoughts
 
 Granular security features like DDM, CLS, and RLS in on-prem databases and data warehouses are what turn these rules into reality. By controlling exactly who can see what data and how much detail they get, these features help follow governance policies.
