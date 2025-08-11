@@ -20,7 +20,7 @@ The management has asked that this exercise adheres the organization's IG.
 
 So, a proposed **Solution** would be to:
 
-- Access data must follow the **principle of least privilege** and regulatory compliance.
+- Give stakeholders minimum access by  must following the **principle of least privilege** and regulatory compliance.
 
 - Identify necessary tables so we can restrict or mask PII.
 
