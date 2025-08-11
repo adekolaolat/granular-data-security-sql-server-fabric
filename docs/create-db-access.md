@@ -20,9 +20,14 @@ CREATE USER analyst FOR LOGIN analyst;
 GO
 
 -- Create a role
-CREATE ROLE data_analyst;
+CREATE ROLE role_analyst;
 
 GO
+
+-- Add user to Roles
+
+EXEC sp_addrolemember 'role_analyst','analyst';
+
 ```
 
 I've also written a stored procedure to make it easier to set up access for stakeholders, and use it to test the security scenarios..
