@@ -16,7 +16,7 @@ Let's say . . .
 
 A business has an Information Governance (IG) policy with data governance at its core, requiring that client and employee PII be safeguarded. An analyst needs historical sales quota data for analysis, but the raw data includes sensitive fields. Meanwhile, the sales manager wants sales reps to only see their own quotas when accessing a specific table.
 
-The management has asked that this adheres the organization's IG.
+The management has asked that this exercise adheres the organization's IG.
 
 So, a proposed **Solution** would be to:
 
