@@ -11,7 +11,7 @@ This project implements data governance at a granular level by applying features
 This is demonstrated using SQL Server but also applies to SQL Endpoints and Data Warehouse on Fabric and Synapse
 
 
-  <details><summary><b> Scenario</b></summary>
+  <details><summary><b> Business Scenario</b></summary>
 Let's say . . .
 
 A business has an Information Governance (IG) policy with data governance at its core, requiring that client and employee PII be safeguarded. An analyst needs historical sales quota data for analysis, but the raw data includes sensitive fields. Meanwhile, the sales manager wants sales reps to only see their own quotas when accessing a specific table.
